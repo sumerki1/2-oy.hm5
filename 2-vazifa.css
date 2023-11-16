@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 110px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__arka{
+    height: 80px;
+    margin-left: 130px;
+}
+.name{
+    display: flex;
+    list-style: none;
+}
+.name li {
+    margin: 22px;
+}
+.name >li> {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(49, 49, 49, 0.883);
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: 22px;
+}
+.menu> li> {
+    text-decoration: none;
+    color: rgba(49, 49, 49, 0.883);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.some__k{
+    height: 40px;
+    margin-left: 50px;
+} 
